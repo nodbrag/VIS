@@ -1,0 +1,27 @@
+CTagIdentify ->  float decodeInteval;	//解码时间间隔 默认时间 1s 时间内的直接返回上一次识别的结果
+                 int decodeCountMax;	//最大相同解码结果针数 25 针
+
+CTagTrack ->
+                 float distMax;	  默认是100 //最大搜索范围 距离  移动距离如果超出这个范围以新的标签重新识别 在这个范围之内返回上传稳定的结果
+	         bool drawTail;		    //叠加图是否画轨迹 
+	         bool drawCode;		    //叠加图是否画code
+
+ec.t.init(2, 4, 4, 8, 35, .7f, ec.roiRects[0], .2f, 50, 15000, Rect(0, 0, 2560, 1440));
+
+
+void init(int rows, int cols, int margin, int sideLength, int minWidth, float decodeThresh, const vector<Rect> &detectRois,
+		float detectScale, int detectMinArea, int detectMaxArea, const Rect &detectFrameRect);
+
+
+sideLength：识别像素面积边 8px 就 8*8=64 px 固定
+
+minWidth: 识别长边的最小像素  默认35px   可变
+
+decodeThresh:   就 8*8=64 px 中 占多少大于这个设置的比例算白 小于算黑
+
+ detectMinArea   把白边围成区别  大于最小值 才算标签 去识别
+
+detectMaxArea    把白边围成区别 小于最大值  才算标签 去识别
+
+
+

@@ -1,0 +1,14 @@
+2018-03-13 11:19:10 *FATAL: error-> D:\opencv\modules\imgcodecs\src\grfmt_base.cpp:140: error: (-10) Raw image encoder error: Empty JPEG image (DNL not supported) in function cv::BaseImageEncoder::throwOnEror
+
+2018-03-13 11:19:19 *FATAL: error-> D:\opencv\modules\imgcodecs\src\grfmt_base.cpp:140: error: (-10) Raw image encoder error: Empty JPEG image (DNL not supported) in function cv::BaseImageEncoder::throwOnEror
+
+2018-03-13 11:19:21 *FATAL: error-> D:\opencv\modules\imgcodecs\src\grfmt_base.cpp:140: error: (-10) Raw image encoder error: Empty JPEG image (DNL not supported) in function cv::BaseImageEncoder::throwOnEror
+
+2018-03-13 11:19:23 *FATAL: error-> D:\opencv\modules\imgcodecs\src\grfmt_base.cpp:140: error: (-10) Raw image encoder error: Empty JPEG image (DNL not supported) in function cv::BaseImageEncoder::throwOnEror
+
+2018-03-13 11:19:40 *FATAL: error-> D:\opencv\modules\imgcodecs\src\grfmt_base.cpp:140: error: (-10) Raw image encoder error: Empty JPEG image (DNL not supported) in function cv::BaseImageEncoder::throwOnEror
+
+2018-03-13 11:22:24 *FATAL: error-> D:\opencv\modules\highgui\src\window.cpp:339: error: (-215) size.width>0 && size.height>0 in function cv::imshow
+
+2018-03-13 11:23:34 *FATAL: error-> D:\opencv\modules\highgui\src\window.cpp:339: error: (-215) size.width>0 && size.height>0 in function cv::imshow
+

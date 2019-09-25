@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraGroup.h" />
+    <ClInclude Include="CameraGroupStatus.h" />
+    <ClInclude Include="CameraMap.h" />
+    <ClInclude Include="Channel.h" />
+    <ClInclude Include="ChannelImg.h" />
+    <ClInclude Include="ColorArgument.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="DataParms.h" />
+    <ClInclude Include="date.h" />
+    <ClInclude Include="EchoService.h" />
+    <ClInclude Include="FFmpegDecoder.h" />
+    <ClInclude Include="FileHelper.h" />
+    <ClInclude Include="FTPClient.h" />
+    <ClInclude Include="JSON.h" />
+    <ClInclude Include="JSONValue.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="Md5Encode.h" />
+    <ClInclude Include="MyMessageBox.h" />
+    <ClInclude Include="OverlayParms.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="port.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="ReadRtsp.h" />
+    <ClInclude Include="RtspChannel.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="SimulatedData.h" />
+    <ClInclude Include="SocketsInterface.h" />
+    <ClInclude Include="StorgeImgMap.h" />
+    <ClInclude Include="TagStatus.h" />
+    <ClInclude Include="TakePhotoParms.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="TankGroupStatus.h" />
+    <ClInclude Include="ThreadArguments.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="UploadImage.h" />
+    <ClInclude Include="VIBase.h" />
+    <ClInclude Include="VIBussiness.h" />
+    <ClInclude Include="VICoreInterface.h" />
+    <ClInclude Include="VideoFrameRate.h" />
+    <ClInclude Include="VIInterface.h" />
+    <ClInclude Include="VINotify.h" />
+    <ClInclude Include="VISetting.h" />
+    <ClInclude Include="VIVideoDecoderInterface.h" />
+    <ClInclude Include="VSParms.h" />
+    <ClInclude Include="XmlConfig.h" />
+    <ClInclude Include="ZBase64.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraGroup.cpp" />
+    <ClCompile Include="CameraGroupStatus.cpp" />
+    <ClCompile Include="CameraMap.cpp" />
+    <ClCompile Include="Channel.cpp" />
+    <ClCompile Include="ChannelImg.cpp" />
+    <ClCompile Include="ColorArgument.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="DataParms.cpp" />
+    <ClCompile Include="date.cpp" />
+    <ClCompile Include="EchoService.cpp" />
+    <ClCompile Include="FFmpegDecoder.cpp" />
+    <ClCompile Include="FileHelper.cpp" />
+    <ClCompile Include="FTPClient.cpp" />
+    <ClCompile Include="JSON.cpp" />
+    <ClCompile Include="JSONValue.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Md5Encode.cpp" />
+    <ClCompile Include="MyMessageBox.cpp" />
+    <ClCompile Include="OverlayParms.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="port.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="ReadRtsp.cpp" />
+    <ClCompile Include="RtspChannel.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="SimulatedData.cpp" />
+    <ClCompile Include="SocketsInterface.cpp" />
+    <ClCompile Include="StorgeImgMap.cpp" />
+    <ClCompile Include="TagStatus.cpp" />
+    <ClCompile Include="TakePhotoParms.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="TankGroupStatus.cpp" />
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+    <ClCompile Include="UploadImage.cpp" />
+    <ClCompile Include="VIBase.cpp" />
+    <ClCompile Include="VIBussiness.cpp" />
+    <ClCompile Include="VICoreInterface.cpp" />
+    <ClCompile Include="VideoFrameRate.cpp" />
+    <ClCompile Include="VINotify.cpp" />
+    <ClCompile Include="VISetting.cpp" />
+    <ClCompile Include="VIVideoDecoderInterface.cpp" />
+    <ClCompile Include="VSParms.cpp" />
+    <ClCompile Include="XmlConfig.cpp" />
+    <ClCompile Include="ZBase64.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{965AB6AB-3CF1-42C3-95FA-5D79EE0E1BD2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VIS</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="yolo.props" />
+    <Import Project="opencv340_noqt.props" />
+    <Import Project="VIS.props" />
+    <Import Project="..\..\..\..\aip\build\property_sheet\aip_release.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>D:\Program Files (x86)\opencv\build\include;D:\Program Files (x86)\opencv\build\include\opencv;D:\Program Files (x86)\opencv\build\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Program Files %28x86%29\opencv\build\x64\vc11\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\workspace\project\ecdts\VIS\VIS\include_ffmpeg;D:\workspace\project\ecdts\VIS\VIS\pecode;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\workspace\project\ecdts\VIS\VIS\lib_ffmpeg;D:\workspace\project\ecdts\VIS\VIS;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_ts300.lib;opencv_world300.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CallingConvention>Cdecl</CallingConvention>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>HCNetSDK.lib;HCCore.lib;PlayCtrl.lib;endo_core.lib;libcurl.lib;swscale.lib;swresample.lib;avutil.lib;avformat.lib;avfilter.lib;avdevice.lib;avcodec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>HCNetSDK.lib;HCCore.lib;PlayCtrl.lib;endo_core.lib;libcurl.lib;swscale.lib;swresample.lib;avutil.lib;avformat.lib;avfilter.lib;avdevice.lib;avcodec.lib;ProjectEncode.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>2048</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\freetype.redist.2.8.0.1\build\native\freetype.redist.targets" Condition="Exists('..\packages\freetype.redist.2.8.0.1\build\native\freetype.redist.targets')" />
+    <Import Project="..\packages\freetype.2.8.0.1\build\native\freetype.targets" Condition="Exists('..\packages\freetype.2.8.0.1\build\native\freetype.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\freetype.redist.2.8.0.1\build\native\freetype.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\freetype.redist.2.8.0.1\build\native\freetype.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\freetype.2.8.0.1\build\native\freetype.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\freetype.2.8.0.1\build\native\freetype.targets'))" />
+  </Target>
+</Project>

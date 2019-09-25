@@ -1,0 +1,6 @@
+﻿  SocketsInterface.cpp
+  client.cpp
+d:\workspace\project\ecdts\vis\vis\client.cpp(34): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+d:\workspace\project\ecdts\vis\vis\client.cpp(138): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+  正在生成代码...
+  VIS.Client.vcxproj -> D:\workspace\project\ecdts\VIS\x64\Debug\VIS.Client.exe

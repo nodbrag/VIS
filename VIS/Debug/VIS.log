@@ -1,0 +1,40 @@
+﻿生成启动时间为 2017/10/10 14:20:12。
+     1>项目“E:\project\C++\VIS-Socket\VIS\VIS\VIS.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Program.cpp VIBussiness.cpp ZBase64.cpp
+         ZBase64.cpp
+         VIBussiness.cpp
+     1>e:\project\c++\vis-socket\vis\vis\vibussiness.h(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\project\c++\vis-socket\vis\vis\vibussiness.cpp(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         Program.cpp
+     1>e:\project\c++\vis-socket\vis\vis\server.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\project\c++\vis-socket\vis\vis\program.cpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\project\c++\vis-socket\vis\vis\program.cpp(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>d:\program files (x86)\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\program files (x86)\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\program files (x86)\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\C++\VIS-Socket\VIS\Debug\VIS.exe" /INCREMENTAL /NOLOGO opencv_ts300.lib opencv_world300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\C++\VIS-Socket\VIS\Debug\VIS.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\C++\VIS-Socket\VIS\Debug\VIS.lib" /MACHINE:X86 Debug\CameraMap.obj
+         Debug\Command.obj
+         Debug\Common.obj
+         Debug\DataParms.obj
+         Debug\EchoService.obj
+         Debug\JSON.obj
+         Debug\JSONValue.obj
+         Debug\Log.obj
+         Debug\port.obj
+         Debug\Program.obj
+         Debug\Server.obj
+         Debug\SocketsInterface.obj
+         Debug\TakePhotoParms.obj
+         Debug\VIBase.obj
+         Debug\VIBussiness.obj
+         Debug\VINotify.obj
+         Debug\ZBase64.obj
+     1>opencv_world300.lib(opencv_world300.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突
+     1>已完成生成项目“E:\project\C++\VIS-Socket\VIS\VIS\VIS.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:10.67

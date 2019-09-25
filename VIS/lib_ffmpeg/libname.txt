@@ -1,0 +1,8 @@
+swscale.lib
+swresample.lib
+ffmpeg_read_rtsp.lib
+avutil.lib
+avformat.lib
+avfilter.lib
+avdevice.lib
+avcodec.lib

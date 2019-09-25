@@ -1,0 +1,41 @@
+﻿  VIVideoDecoderInterface.cpp
+d:\workspace\project\ecdts\vis\vis\vivideodecoderinterface.h(3): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  VINotify.cpp
+d:\workspace\project\ecdts\vis\vis\vinotify.h(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\workspace\project\ecdts\vis\vis\endo_core.h(12): fatal error C1083: 无法打开包括文件: “yolo_v2_class.hpp”: No such file or directory
+  VICoreInterface.cpp
+d:\workspace\project\ecdts\vis\vis\endo_core.h(12): fatal error C1083: 无法打开包括文件: “yolo_v2_class.hpp”: No such file or directory
+  VIBussiness.cpp
+d:\workspace\project\ecdts\vis\vis\vibussiness.cpp(1): fatal error C1083: 无法打开包括文件: “opencv2/opencv.hpp”: No such file or directory
+  VIBase.cpp
+d:\workspace\project\ecdts\vis\vis\vibase.h(2): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  UploadImage.cpp
+d:\workspace\project\ecdts\vis\vis\uploadimage.h(2): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  StorgeImgMap.cpp
+d:\workspace\project\ecdts\vis\vis\channelimg.h(2): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  Server.cpp
+d:\workspace\project\ecdts\vis\vis\server.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\workspace\project\ecdts\vis\vis\endo_core.h(12): fatal error C1083: 无法打开包括文件: “yolo_v2_class.hpp”: No such file or directory
+  RtspChannel.cpp
+d:\workspace\project\ecdts\vis\vis\channelimg.h(2): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  ReadRtsp.cpp
+d:\workspace\project\ecdts\vis\vis\readrtsp.h(12): fatal error C1083: 无法打开包括文件: “libavcodec\avcodec.h”: No such file or directory
+  Program.cpp
+d:\workspace\project\ecdts\vis\vis\server.h(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\workspace\project\ecdts\vis\vis\endo_core.h(12): fatal error C1083: 无法打开包括文件: “yolo_v2_class.hpp”: No such file or directory
+  OverlayParms.cpp
+d:\workspace\project\ecdts\vis\vis\overlayparms.h(2): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  FFmpegDecoder.cpp
+d:\workspace\project\ecdts\vis\vis\ffmpegdecoder.h(22): fatal error C1083: 无法打开包括文件: “libavutil/mathematics.h”: No such file or directory
+  EchoService.cpp
+d:\workspace\project\ecdts\vis\vis\echoservice.h(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\workspace\project\ecdts\vis\vis\endo_core.h(12): fatal error C1083: 无法打开包括文件: “yolo_v2_class.hpp”: No such file or directory
+  ChannelImg.cpp
+d:\workspace\project\ecdts\vis\vis\channelimg.h(2): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  Channel.cpp
+d:\workspace\project\ecdts\vis\vis\channel.h(2): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  CameraGroup.cpp
+d:\workspace\project\ecdts\vis\vis\endo_core.h(12): fatal error C1083: 无法打开包括文件: “yolo_v2_class.hpp”: No such file or directory
+  Camera.cpp
+d:\workspace\project\ecdts\vis\vis\camera.h(2): fatal error C1083: 无法打开包括文件: “opencv2\opencv.hpp”: No such file or directory
+  正在生成代码...

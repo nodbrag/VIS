@@ -1,0 +1,10 @@
+﻿  client.cpp
+..\VIS\client.cpp(39): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+..\VIS\client.cpp(111): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+  正在生成代码
+d:\workspace\project\ecdts\vis\vis\socketsinterface.cpp(137): warning C4789: 缓冲区“buffer”(大小为 81920 字节)将溢出；921600 字节将在偏移 0 时开始写入
+  1 of 84 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  VIS.Client.vcxproj -> D:\workspace\project\ecdts\VIS\x64\Release\VIS.Client.exe

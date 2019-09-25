@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+    <Parms>
+        <Test>1</Test>
+        <IsCupUseOptimized>1</IsCupUseOptimized>
+        <RgbFrameRate>10</RgbFrameRate>
+        <IRMaxFrameRate>10</IRMaxFrameRate>
+        <IRMinFrameRate>10</IRMinFrameRate>
+        <IsRgbCheck>0</IsRgbCheck>
+        <IsDynamicSetFrameRate>0</IsDynamicSetFrameRate>
+        <VideoDecoder>0</VideoDecoder>
+        <DeviceCapturePicture>0</DeviceCapturePicture>
+        <TotalFrameNum>60</TotalFrameNum>
+        <WorkSpaceTime>10</WorkSpaceTime>
+        <MinFrameNum>5</MinFrameNum>
+        <CleanInfectionMachineFrameNum>12</CleanInfectionMachineFrameNum>
+        <MinlengthPx>30</MinlengthPx>
+        <MinCommonNum>5</MinCommonNum>
+        <IsDrawTail>1</IsDrawTail>
+        <IsDrawCode>1</IsDrawCode>
+        <TankWidthScale>0.8</TankWidthScale>
+        <EShiftX>90</EShiftX>
+        <PShiftX>200</PShiftX>
+        <DecodeInteval>0</DecodeInteval>
+        <DetectMinArea>400</DetectMinArea>
+        <DetectMaxArea>15000</DetectMaxArea>
+        <lableRows>2</lableRows>
+        <lableCols>4</lableCols>
+        <lableMargin>8</lableMargin>
+        <cellSize>16</cellSize>
+        <innerThresh>30</innerThresh>
+        <scale>0.5</scale>
+        <bloodMax>20</bloodMax>
+        <DecodeThresh>0.7</DecodeThresh>
+        <IsUploadImage>1</IsUploadImage>
+        <UploadImageModel>0</UploadModel>
+        <IntervalUploadImageTime>20</IntervalUploadImageTime>
+        <SaveImagePath>D:/images</SaveImagePath>
+        <Host>127.0.0.1</Host>
+        <Port>21</Port>
+        <UserName>test</UserName>
+        <Password>123456</Password>
+        <HospitalCatalog>pizhou</HospitalCatalog>
+    </Parms>
+</Config>
